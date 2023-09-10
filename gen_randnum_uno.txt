@@ -1,0 +1,13 @@
+//Programa que genera Números aleatorios desde Arduino
+
+void setup() {
+  Serial.begin(9600); // Inicia la comunicación serial a 9600 baudios
+  randomSeed(analogRead(0)); // Inicializa la generación de números aleatorios
+  delay(1000);               //Espera un segundo para evitar errores
+}
+
+void loop() {
+  int NumeroAleatorio = random(0, 100); // Genera un número aleatorio entre 0 y 99
+  Serial.println(NumeroAleatorio);    // Envía el número generado por el puerto serial
+  delay(100); // Espera 100 milisegundo y luego genera otro
+}
