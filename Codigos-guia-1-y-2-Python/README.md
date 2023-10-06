@@ -8,8 +8,7 @@ codigos
 
 4) lectura serial: serial_readOOP.py
 5) lectura I2C: i2c_readOOP.py
-6) lectura I2C cada 30 segundos y entrega de promedio de los datos obtenidos a los 5 minutos:
-   i2c_timestampOOP.py
+6) lectura I2C cada 30 segundos y entrega de promedio de los datos obtenidos a los 5 minutos: i2c_timestampOOP.py
 
    codigo Arduino UNO
 
